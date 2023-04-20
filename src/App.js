@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      await fetch(`https://api.github.com/users/philipec`)
+      await fetch(`https://api.github.com/users/philipecaldas`)
         .then((res) => console.log(res.json()))
         .then((res) => setProducts(inventory))
         .catch((e) => console.error(e));
